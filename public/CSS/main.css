@@ -1,0 +1,35 @@
+/* CSS é formada por seletores */
+
+/* CASCATA: considera sempre o último elemento, se colocar o style direto no HTML, ele ganha prioridade. Ao procurar pelo id, ganha mais prioridade tb*/
+  
+/* ao colocar # vc está se referindo ao id  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#body{
+    height: 100vh;
+    color: white;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body, input, button, textarea{
+    /* font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'Nunito', sans-serif; */
+
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+}
+
+#page-landing{
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00c7c7 100%) no-repeat;
+
+    text-align: center;
+    min-height: 100vh;
+}
