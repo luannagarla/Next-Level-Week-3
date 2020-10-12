@@ -8,4 +8,4 @@ Utilizando as tecnologias Java Script, HTML, CSS e node js, foi criado, do zero,
 
 ![Home-page Happy](public/images/HomePage.png)
 
-##### Design por Tiago Luchtenberg
+###### Design por Tiago Luchtenberg
