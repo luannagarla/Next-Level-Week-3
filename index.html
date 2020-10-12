@@ -9,6 +9,8 @@
     <!-- colocar icone na página -->
 
     <link rel="stylesheet" href="public/CSS/main.css" />
+    <link rel="stylesheet" href="public/CSS/animations.css" />
+    <link rel="stylesheet" href="public/CSS/page-landing.css" />    
     <!-- criar relação para acessar o css -->
 
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
@@ -18,21 +20,25 @@
     <div id="page-landing">
       <div id="container">
         <header>
-          <img src="./public/images/logo.svg" alt="Logomarca de Happy" />
+          <img 
+          class="animate-up"
+          id="logo" 
+          src="./public/images/logo.svg"
+          alt="Logomarca de Happy" />
 
-          <div>
+          <div class="location animate-up">
             <strong>Rio do sul</strong>
             <p>Santa Catarina</p>
           </div>
         </header>
 
         <main>
-          <h1>Leve felicidade para o mundo</h1>
+          <h1 class="animate-up">Leve felicidade para o mundo</h1>
 
-          <section>
-            <p>Visite orfanatos e mude o dia de muitas crianças</p>
+          <section class="visit">
+            <p class="animate-up">Visite orfanatos e mude o dia de muitas crianças</p>
 
-            <a href="https://google.com" title="Visite orfanatos">
+            <a href="https://google.com" title="Visite orfanatos" class="animate-up">
               <img src="./public/images/arrow.svg" alt="Ir para o mapa" />
             </a>
           </section>
