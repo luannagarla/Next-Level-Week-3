@@ -6,6 +6,6 @@ A Next Level Week é um evento gratuito com a duração de uma semana, que tem c
 ## Desenvolvimento :computer:
 Utilizando as tecnologias Java Script, HTML, CSS e node js, foi criado, do zero, um site chamado _Happy_, que foi idealizado para conectar pessoas com orfanatos, sendo possível pesquisar os presentes em sua cidade para realizar visitas no mesmo. 
 
-![Home-pade do Happy](public/images/happy.png)
+![Home-page Happy](public/images/HomePage.png)
 
-#### Design por Tiago Luchtenberg
+##### Design por Tiago Luchtenberg
