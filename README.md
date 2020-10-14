@@ -8,4 +8,4 @@ Utilizando as tecnologias Java Script, HTML, CSS e node js, foi criado, do zero,
 
 ![Home-page Happy](public/images/HomePage.png)
 
-###### <a href="https://www.figma.com/file/GOcnQ9SEQDDvbGHfiRgReW/Happy-Web-(Copy)?node-id=48625%3A901">Design por Tiago Luchtenberg</a>
+###### <a href="https://www.figma.com/file/GOcnQ9SEQDDvbGHfiRgReW/Happy-Web-(Copy)?node-id=48625%3A901">Design por Tiago Luchtenberg (Clique para ver completo)</a>
