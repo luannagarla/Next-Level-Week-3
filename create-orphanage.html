@@ -54,6 +54,8 @@
 
             <div class="map-container">
               <div id="mapid"></div>
+              <input type="hidden" name="lat">
+              <input type="hidden" name="lang">
 
               <footer>
                 <a href="#" id="select-point">
@@ -93,7 +95,8 @@
                 </div>
               </div>
 
-              <button type="button">
+              <button onclick="addPhotoField()"
+              type="button">
                 <img src="public/images/add-file.svg" alt="Nova Imagem" />
               </button>
             </div>

@@ -6,7 +6,7 @@
     width: 100%;
     height: 6.4rem;
     border: none;
-
+  
     cursor: pointer;
 
     border-radius: 2rem;
@@ -18,6 +18,11 @@
 
     transition: background-color .2s;
 }
+
+.primary-button.whatsapp{
+    margin-left: 50%;
+}
+
 
 .primary-button:hover{
     background: #36cf82;
