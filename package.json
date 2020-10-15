@@ -1,0 +1,23 @@
+{
+  "name": "Next-Level-Week-3",
+  "version": "1.0.0",
+  "description": "Um site chamado Happy, que foi idealizado para conectar pessoas com orfanatos, sendo possível pesquisar os presentes em sua cidade para realizar visitas no mesmo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luannagarla/Next-Level-Week-3.git"
+  },
+  "keywords": [],
+  "author": "Luanna Garla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luannagarla/Next-Level-Week-3/issues"
+  },
+  "homepage": "https://github.com/luannagarla/Next-Level-Week-3#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
