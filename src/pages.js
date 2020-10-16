@@ -1,7 +1,10 @@
+const orphanages = require('./database/fakedata.js');
+
 module.exports = {
+    
     index(request, response){
-        const city = request.query.city //red = precisa ser colocada na barra ou enviar em algum lugar (formulário)
-        return response.render('index', { city })
+        //const city = request.query.city //red = precisa ser colocada na barra ou enviar em algum lugar (formulário)
+        return response.render('index')
     },
 
     orphanage(request, response){
@@ -9,7 +12,7 @@ module.exports = {
     },
 
     orphanages(request, response){
-        return response.render('orphanages')        
+        return response.render('orphanages', { orphanages })        
     },
 
     createOrphanage(request, response){
