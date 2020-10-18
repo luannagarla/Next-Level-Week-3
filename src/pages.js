@@ -43,7 +43,39 @@ module.exports = {
 
     createOrphanage(request, response){
         return response.render('create-orphanage')
-    }
+    },
 
+   async saveOrphanage(request, response){
+        const fields = request.body
+
+        // validar se td esta preenchido
+        if(Object.values(fields).includes('')){
+            return response.send('Todos os campos devem ser preenchidos!')
+        }
+
+        //salvar o orfanato
+        try {
+        const db = await dataBase
+        await saveOrphanage(db, {
+            lat: fields.lat,
+            lng: fields.lng,
+            name: fields.name,
+            about: fields.about,
+            whatsapp: fields.whatsapp,
+            images: fields.images.toString(),
+            instructions: fields.instructions,
+            opening_hours: fields.opening_hours,
+            open_on_weekends: fields.open_on_weekends,
+        })
+        // redirecionar
+        return response.redirect('/orphanages')
+
+
+        } catch (error) {
+            console.log(error)
+            return response.send('Erro no banco de dados')
+        }
+        
+    }
 
 }

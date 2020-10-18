@@ -8,6 +8,9 @@ const server = express();
 
 //crir uma rota
 server
+  // utilizar body de req
+  .use(express.urlencoded({ extended: true }))
+
   //pasta com arquivos estáticos
   .use(express.static("public"))
 
@@ -20,7 +23,7 @@ server
   .get("/orphanage", pages.orphanage)
   .get("/orphanages", pages.orphanages)
   .get("/create-orphanage", pages.createOrphanage)
-
+  .get("/save-orphanage", pages.saveOrphanage)
 
 // console.log(request.query) - posso ver oq foi registrado na barra
 
