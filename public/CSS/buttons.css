@@ -17,12 +17,9 @@
     justify-content: center;
 
     transition: background-color .2s;
-}
 
-.primary-button.whatsapp{
-    margin-left: 50%;
+    text-decoration: none;
 }
-
 
 .primary-button:hover{
     background: #36cf82;
