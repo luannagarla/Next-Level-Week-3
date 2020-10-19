@@ -3,7 +3,7 @@ function saveOrphanage(db, orphanage) {
     INSERT INTO orphanages(
         lat, 
         lng,
-        name,
+        name, 
         about,
         whatsapp,
         images,
