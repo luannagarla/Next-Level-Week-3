@@ -1,4 +1,5 @@
 # Next Level Week 3 :rocket:
+<a href="https://rocketseat.com.br/">Offered by Rocketseat</a>
 
 ## Objective :dart: 
 Next Level Week is a free one-week event that aims to take participants to a new level in their web development careers. The third edition took place from October 12 to 16, 2020.
